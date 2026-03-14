@@ -3,6 +3,7 @@
 ```bash
      sudo mysql 
 ```
+
 ### Step 2: Create Database
 ```bash
      CREATE DATABASE college; 
