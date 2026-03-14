@@ -74,7 +74,7 @@
    DELETE FROM student
    WHERE id=2;
 ```
-#### check:
+#### Check:
 ```bash
    SELECT * FROM student;
 ```
