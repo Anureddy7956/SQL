@@ -3,7 +3,6 @@
 ```bash
      sudo mysql 
 ```
-
 ### Step 2: Create Database
 ```bash
      CREATE DATABASE college; 
@@ -15,5 +14,92 @@
 #### Use Database 
 ```bash
      USE college; 
+```
+### Step 3 : Create Table 
+```bash
+   CREATE TABLE student(
+   id INT PRIMARY KEY,
+   name VARCHAR(20),
+   age INT,
+   course VARCHAR(20) 
+);
+```
+#### Check Table 
+```bash
+   SHOW TABLES;   
+```
+#### See structure
+```bash
+   DESCRIBE student;   
+```
+### Step 4 : Insert the Data
+```bash
+   INSERT INTO student VALUES(1,'Anya',19,'CSE');
+
+   INSERT INTO student VALUES(2,'Ravi',20,'ECE');
+
+   INSERT INTO student VALUES(3,'Meena',18,'CSE');
+
+   INSERT INTO student VALUES(4,'Kiran',21,'MECH');
+```
+### Step 5: Display Data
+#### Show all records:
+```bash
+   SELECT * FROM student;
+```
+#### Show only names:
+```bash
+   SELECT name FROM student;
+```
+#### Show CSE students:
+```bash
+   SELECT *FROM student
+   WHERE course= 'CSE';
+```
+### Step 6️⃣ Update Data
+#### Change age:
+```bash
+   UPDATE student
+   SET age=22
+   WHERE id=4;
+```
+#### Check:
+```bash
+   SELECT * FROM student;
+```
+
+### Step 7: Delete Data 
+### delete student :
+```bash
+   DELETE FROM student
+   WHERE id=2;
+```
+#### check:
+```bash
+   SELECT * FROM student;
+```
+### Step 8: Extra Queries
+#### Sort the data by using age in order  
+```bash
+   SELECT * FROM student
+   ORDER BY age;
+```
+#### Count students
+```bash
+   SELECT COUNT(*) FROM student;
+```
+
+#### Maximum age 
+```bash
+   SELECT MAX(age) FROM student;
+```
+#### Minimum age
+```bash
+   SELECT MIN(age) FROM student;
+```
+
+### Step 9: Drop the Table from the Database
+```bash
+   DROP TABLE student;
 ```
 
