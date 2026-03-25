@@ -56,6 +56,8 @@
 
    INSERT INTO student VALUES(4,'Kiran',21,'MECH');
 ```
+<img width="1920" height="395" alt="image" src="https://github.com/user-attachments/assets/ec4c2089-3350-414f-9173-5508be6d68b2" />
+
 ### Step 5: Display Data
 #### Show all records:
 ```bash
