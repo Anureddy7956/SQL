@@ -100,20 +100,26 @@
    WHERE id=2;
 ```
 <img width="1918" height="136" alt="image" src="https://github.com/user-attachments/assets/5337d772-f7f5-4ee0-a670-b4b5fc572da6" />
+
 #### Check:
 ```bash
    SELECT * FROM student;
 ```
+<img width="1920" height="320" alt="image" src="https://github.com/user-attachments/assets/0203b1fc-aef1-44f3-990c-1d3703fd4418" />
+
 ### Step 8: Extra Queries
 #### Sort the data by using age in order  
 ```bash
    SELECT * FROM student
    ORDER BY age;
 ```
+<img width="1920" height="354" alt="image" src="https://github.com/user-attachments/assets/541b9df0-2c94-434b-9e93-6bec658542b1" />
+
 #### Count students
 ```bash
    SELECT COUNT(*) FROM student;
 ```
+
 
 #### Maximum age 
 ```bash
