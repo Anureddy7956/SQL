@@ -32,6 +32,8 @@
    course VARCHAR(20) 
 );
 ```
+<img width="1920" height="252" alt="image" src="https://github.com/user-attachments/assets/fff6636c-810a-42e3-af4f-45ff0aa432d5" />
+
 #### Check Table 
 ```bash
    SHOW TABLES;   
