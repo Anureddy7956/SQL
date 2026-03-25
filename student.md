@@ -91,7 +91,7 @@
 ```bash
    SELECT * FROM student;
 ```
-
+<img width="1918" height="351" alt="image" src="https://github.com/user-attachments/assets/9d1029a0-6f6b-43c4-ba2c-04a68514c5c7" />
 
 ### Step 7: Delete Data 
 ### delete student :
@@ -99,6 +99,7 @@
    DELETE FROM student
    WHERE id=2;
 ```
+<img width="1918" height="136" alt="image" src="https://github.com/user-attachments/assets/5337d772-f7f5-4ee0-a670-b4b5fc572da6" />
 #### Check:
 ```bash
    SELECT * FROM student;
