@@ -76,6 +76,8 @@
    SELECT *FROM student
    WHERE course= 'CSE';
 ```
+<img width="1920" height="338" alt="image" src="https://github.com/user-attachments/assets/e75a8e90-7765-44fa-82d0-215d99ade5a5" />
+
 ### Step 6️⃣ Update Data
 #### Change age:
 ```bash
@@ -83,10 +85,13 @@
    SET age=22
    WHERE id=4;
 ```
+<img width="1920" height="199" alt="image" src="https://github.com/user-attachments/assets/cd4019e2-5e65-4f32-9099-8a71f29ea498" />
+
 #### Check:
 ```bash
    SELECT * FROM student;
 ```
+
 
 ### Step 7: Delete Data 
 ### delete student :
