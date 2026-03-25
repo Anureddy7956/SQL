@@ -21,6 +21,8 @@
 ```bash
      USE college; 
 ```
+<img width="1920" height="78" alt="image" src="https://github.com/user-attachments/assets/89cea0af-921a-4f41-bfd3-426631cb03f9" />
+
 ### Step 3 : Create Table 
 ```bash
    CREATE TABLE student(
