@@ -119,19 +119,24 @@
 ```bash
    SELECT COUNT(*) FROM student;
 ```
-
+<img width="1920" height="269" alt="image" src="https://github.com/user-attachments/assets/a8f22bbe-a2ad-4a1b-ad7e-6edd8a3853e8" />
 
 #### Maximum age 
 ```bash
    SELECT MAX(age) FROM student;
 ```
+<img width="1920" height="269" alt="image" src="https://github.com/user-attachments/assets/446c4d95-fe1c-429d-ad07-58671ab5f012" />
+
 #### Minimum age
 ```bash
    SELECT MIN(age) FROM student;
 ```
+<img width="1920" height="269" alt="image" src="https://github.com/user-attachments/assets/5836a5d4-2a91-4dd3-a84b-5d760eaca75a" />
 
 ### Step 9: Drop the Table from the Database
 ```bash
    DROP TABLE student;
 ```
+<img width="1920" height="109" alt="image" src="https://github.com/user-attachments/assets/b736faa6-626e-4ee8-be7b-627b4bb5e789" />
+
 
