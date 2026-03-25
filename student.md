@@ -38,10 +38,14 @@
 ```bash
    SHOW TABLES;   
 ```
+<img width="1920" height="256" alt="image" src="https://github.com/user-attachments/assets/60fa6abb-58b4-491b-948d-584d3411377c" />
+
 #### See structure
 ```bash
    DESCRIBE student;   
 ```
+ <img width="1920" height="364" alt="image" src="https://github.com/user-attachments/assets/801272d5-406c-42ea-bb21-f5855eb44d49" />
+    
 ### Step 4 : Insert the Data
 ```bash
    INSERT INTO student VALUES(1,'Anya',19,'CSE');
