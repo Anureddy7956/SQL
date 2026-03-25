@@ -3,14 +3,20 @@
 ```bash
      sudo mysql 
 ```
+<img width="1914" height="507" alt="image" src="https://github.com/user-attachments/assets/7d3ab718-adf6-439b-b663-fa8e727753be" />
+
 ### Step 2: Create Database
 ```bash
-     CREATE DATABASE college; 
+     CREATE DATABASE college;
 ```
+<img width="1920" height="119" alt="image" src="https://github.com/user-attachments/assets/879df8b3-be2e-4fcd-a6b3-c8baa022399d" />
+
 #### check Databases:
 ```bash
      SHOW DATABASES;
 ```
+<img width="1912" height="377" alt="image" src="https://github.com/user-attachments/assets/5b200532-9f72-4d04-8181-19608e3aca0a" />
+
 #### Use Database 
 ```bash
      USE college; 
