@@ -63,6 +63,8 @@
 ```bash
    SELECT * FROM student;
 ```
+<img width="1920" height="357" alt="image" src="https://github.com/user-attachments/assets/e59b8b6c-d7f6-478f-a18c-c7dec3b6845c" />
+
 #### Show only names:
 ```bash
    SELECT name FROM student;
